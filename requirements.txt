@@ -1,0 +1,2 @@
+# Requirements for Explainable AI Media Detection
+# Packages will be added here as the project develops.
