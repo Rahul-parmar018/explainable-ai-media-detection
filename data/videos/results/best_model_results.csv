@@ -1,0 +1,2 @@
+Selected_Model,Model_Family,Hyperparameters,Val_Balanced_Accuracy,Val_F1,Val_ROC_AUC,Test_Accuracy,Test_Balanced_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_ROC_AUC,TN,FP,FN,TP
+Logistic Regression (C=1.0),Logistic Regression,C=1.0,0.581,0.6541,0.5702,0.6702,0.5976,0.9048,0.6951,0.7862,0.6016,6,6,25,57
