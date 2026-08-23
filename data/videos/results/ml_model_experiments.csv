@@ -1,0 +1,28 @@
+Model,Configuration,Hyperparameters,Requires_Scaling,Val_Accuracy,Val_Balanced_Accuracy,Val_Precision,Val_Recall,Val_F1,Val_ROC_AUC
+Logistic Regression,Logistic Regression (C=1.0),C=1.0,True,0.5339,0.581,0.8966,0.5149,0.6541,0.5702
+Logistic Regression,Logistic Regression (C=10.0),C=10.0,True,0.6102,0.5766,0.8873,0.6238,0.7326,0.562
+SVM,"SVM (kernel=rbf, C=1.0)","kernel=rbf, C=1.0",True,0.3136,0.5745,0.9545,0.2079,0.3415,0.4211
+SVM,"SVM (kernel=rbf, C=10.0)","kernel=rbf, C=10.0",True,0.3814,0.5652,0.9118,0.3069,0.4593,0.4246
+Logistic Regression,Logistic Regression (C=100.0),C=100.0,True,0.5932,0.5422,0.8732,0.6139,0.7209,0.5434
+Logistic Regression,Logistic Regression (C=0.01),C=0.01,True,0.5847,0.5373,0.8714,0.604,0.7135,0.5737
+SVM,"SVM (kernel=linear, C=10.0)","kernel=linear, C=10.0",True,0.5847,0.5373,0.8714,0.604,0.7135,0.449
+Extra Trees,"Extra Trees (n_est=200, max_depth=10)","n_estimators=200, max_depth=10",False,0.8559,0.5245,0.8621,0.9901,0.9217,0.5679
+Logistic Regression,Logistic Regression (C=0.1),C=0.1,True,0.5169,0.5221,0.8667,0.5149,0.646,0.5649
+SVM,"SVM (kernel=linear, C=0.1)","kernel=linear, C=0.1",True,0.3898,0.5213,0.8718,0.3366,0.4857,0.4368
+SVM,"SVM (kernel=linear, C=1.0)","kernel=linear, C=1.0",True,0.4831,0.5023,0.8571,0.4752,0.6115,0.4549
+Extra Trees,"Extra Trees (n_est=200, max_depth=None)","n_estimators=200, max_depth=None",False,0.8559,0.5,0.8559,1.0,0.9224,0.6147
+Extra Trees,"Extra Trees (n_est=500, max_depth=None)","n_estimators=500, max_depth=None",False,0.8559,0.5,0.8559,1.0,0.9224,0.6057
+Extra Trees,"Extra Trees (n_est=200, max_depth=20)","n_estimators=200, max_depth=20",False,0.8559,0.5,0.8559,1.0,0.9224,0.5967
+Random Forest,"Random Forest (n_est=200, max_depth=None)","n_estimators=200, max_depth=None",False,0.8559,0.5,0.8559,1.0,0.9224,0.5812
+Random Forest,"Random Forest (n_est=200, max_depth=10)","n_estimators=200, max_depth=10",False,0.8559,0.5,0.8559,1.0,0.9224,0.581
+Random Forest,"Random Forest (n_est=200, max_depth=20)","n_estimators=200, max_depth=20",False,0.8559,0.5,0.8559,1.0,0.9224,0.5789
+Random Forest,"Random Forest (n_est=500, max_depth=20)","n_estimators=500, max_depth=20",False,0.8559,0.5,0.8559,1.0,0.9224,0.5775
+Random Forest,"Random Forest (n_est=500, max_depth=10)","n_estimators=500, max_depth=10",False,0.8559,0.5,0.8559,1.0,0.9224,0.5731
+Random Forest,"Random Forest (n_est=500, max_depth=None)","n_estimators=500, max_depth=None",False,0.8559,0.5,0.8559,1.0,0.9224,0.5728
+Extra Trees,"Extra Trees (n_est=500, max_depth=20)","n_estimators=500, max_depth=20",False,0.8559,0.5,0.8559,1.0,0.9224,0.5728
+Extra Trees,"Extra Trees (n_est=500, max_depth=10)","n_estimators=500, max_depth=10",False,0.8559,0.5,0.8559,1.0,0.9224,0.5667
+SVM,"SVM (kernel=rbf, C=0.1)","kernel=rbf, C=0.1",True,0.8559,0.5,0.8559,1.0,0.9224,0.4263
+HistGradientBoosting,"HistGradientBoosting (lr=0.03, max_iter=200)","learning_rate=0.03, max_iter=200",False,0.839,0.4901,0.8534,0.9802,0.9124,0.5626
+HistGradientBoosting,"HistGradientBoosting (lr=0.03, max_iter=100)","learning_rate=0.03, max_iter=100",False,0.8305,0.4851,0.8522,0.9703,0.9074,0.562
+HistGradientBoosting,"HistGradientBoosting (lr=0.1, max_iter=200)","learning_rate=0.1, max_iter=200",False,0.8305,0.4851,0.8522,0.9703,0.9074,0.5585
+HistGradientBoosting,"HistGradientBoosting (lr=0.1, max_iter=100)","learning_rate=0.1, max_iter=100",False,0.822,0.4802,0.8509,0.9604,0.9023,0.5422

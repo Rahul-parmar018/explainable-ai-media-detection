@@ -1,0 +1,10 @@
+{
+  "name": "explainable-ai-media-detection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Explainable Detection of AI-Generated Images and Videos Using Traditional Machine Learning",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  }
+}

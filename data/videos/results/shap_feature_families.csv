@@ -1,0 +1,217 @@
+feature,feature_family,mean_abs_shap
+h_mean_mean,Color (HSV),0.18466
+h_mean_std,Color (HSV),0.304449
+h_mean_min,Color (HSV),0.44146
+h_mean_max,Color (HSV),0.190616
+h_std_mean,Color (HSV),0.438919
+h_std_std,Color (HSV),0.04353
+h_std_min,Color (HSV),0.042973
+h_std_max,Color (HSV),0.200623
+s_mean_mean,Color (HSV),0.225754
+s_mean_std,Color (HSV),0.16788
+s_mean_min,Color (HSV),0.080762
+s_mean_max,Color (HSV),0.114434
+s_std_mean,Color (HSV),0.339565
+s_std_std,Color (HSV),0.393374
+s_std_min,Color (HSV),0.070267
+s_std_max,Color (HSV),0.27678
+v_mean_mean,Color (HSV),0.050336
+v_mean_std,Color (HSV),0.093072
+v_mean_min,Color (HSV),0.260448
+v_mean_max,Color (HSV),0.08068
+v_std_mean,Color (HSV),0.055144
+v_std_std,Color (HSV),0.027961
+v_std_min,Color (HSV),0.151392
+v_std_max,Color (HSV),0.035474
+h_hist_0_mean,Color (HSV),0.013648
+h_hist_0_std,Color (HSV),0.147282
+h_hist_0_min,Color (HSV),0.213393
+h_hist_0_max,Color (HSV),0.084457
+h_hist_1_mean,Color (HSV),0.071758
+h_hist_1_std,Color (HSV),0.030645
+h_hist_1_min,Color (HSV),0.161246
+h_hist_1_max,Color (HSV),0.014503
+h_hist_2_mean,Color (HSV),0.049772
+h_hist_2_std,Color (HSV),0.163882
+h_hist_2_min,Color (HSV),0.129169
+h_hist_2_max,Color (HSV),0.105356
+h_hist_3_mean,Color (HSV),0.015263
+h_hist_3_std,Color (HSV),0.082346
+h_hist_3_min,Color (HSV),0.106523
+h_hist_3_max,Color (HSV),0.184892
+h_hist_4_mean,Color (HSV),0.008561
+h_hist_4_std,Color (HSV),0.131236
+h_hist_4_min,Color (HSV),0.056229
+h_hist_4_max,Color (HSV),0.335492
+h_hist_5_mean,Color (HSV),0.06531
+h_hist_5_std,Color (HSV),0.024331
+h_hist_5_min,Color (HSV),0.057295
+h_hist_5_max,Color (HSV),0.05857
+h_hist_6_mean,Color (HSV),0.087254
+h_hist_6_std,Color (HSV),0.213337
+h_hist_6_min,Color (HSV),0.050019
+h_hist_6_max,Color (HSV),0.028692
+h_hist_7_mean,Color (HSV),0.098771
+h_hist_7_std,Color (HSV),0.460057
+h_hist_7_min,Color (HSV),0.247267
+h_hist_7_max,Color (HSV),0.163578
+s_hist_0_mean,Color (HSV),0.008373
+s_hist_0_std,Color (HSV),0.238942
+s_hist_0_min,Color (HSV),0.129351
+s_hist_0_max,Color (HSV),0.047941
+s_hist_1_mean,Color (HSV),0.089779
+s_hist_1_std,Color (HSV),0.136373
+s_hist_1_min,Color (HSV),0.07439
+s_hist_1_max,Color (HSV),0.165032
+s_hist_2_mean,Color (HSV),0.385589
+s_hist_2_std,Color (HSV),0.058885
+s_hist_2_min,Color (HSV),0.014776
+s_hist_2_max,Color (HSV),0.008718
+s_hist_3_mean,Color (HSV),0.335142
+s_hist_3_std,Color (HSV),0.076724
+s_hist_3_min,Color (HSV),0.258736
+s_hist_3_max,Color (HSV),0.167858
+s_hist_4_mean,Color (HSV),0.175287
+s_hist_4_std,Color (HSV),0.261837
+s_hist_4_min,Color (HSV),0.042528
+s_hist_4_max,Color (HSV),0.107846
+s_hist_5_mean,Color (HSV),0.320055
+s_hist_5_std,Color (HSV),0.186405
+s_hist_5_min,Color (HSV),0.326221
+s_hist_5_max,Color (HSV),0.170043
+s_hist_6_mean,Color (HSV),0.197444
+s_hist_6_std,Color (HSV),0.000123
+s_hist_6_min,Color (HSV),0.44514
+s_hist_6_max,Color (HSV),0.092313
+s_hist_7_mean,Color (HSV),0.172382
+s_hist_7_std,Color (HSV),0.363234
+s_hist_7_min,Color (HSV),0.102941
+s_hist_7_max,Color (HSV),0.198381
+v_hist_0_mean,Color (HSV),0.233835
+v_hist_0_std,Color (HSV),0.098009
+v_hist_0_min,Color (HSV),0.368087
+v_hist_0_max,Color (HSV),0.121954
+v_hist_1_mean,Color (HSV),0.007868
+v_hist_1_std,Color (HSV),0.114878
+v_hist_1_min,Color (HSV),0.275386
+v_hist_1_max,Color (HSV),0.047536
+v_hist_2_mean,Color (HSV),0.249493
+v_hist_2_std,Color (HSV),0.004447
+v_hist_2_min,Color (HSV),0.317501
+v_hist_2_max,Color (HSV),0.223604
+v_hist_3_mean,Color (HSV),0.089942
+v_hist_3_std,Color (HSV),0.142666
+v_hist_3_min,Color (HSV),0.093092
+v_hist_3_max,Color (HSV),0.113121
+v_hist_4_mean,Color (HSV),0.332705
+v_hist_4_std,Color (HSV),0.16346
+v_hist_4_min,Color (HSV),0.027704
+v_hist_4_max,Color (HSV),0.059693
+v_hist_5_mean,Color (HSV),0.277078
+v_hist_5_std,Color (HSV),0.199711
+v_hist_5_min,Color (HSV),0.176766
+v_hist_5_max,Color (HSV),0.238159
+v_hist_6_mean,Color (HSV),0.14349
+v_hist_6_std,Color (HSV),0.553205
+v_hist_6_min,Color (HSV),0.220327
+v_hist_6_max,Color (HSV),0.144701
+v_hist_7_mean,Color (HSV),0.056932
+v_hist_7_std,Color (HSV),0.088504
+v_hist_7_min,Color (HSV),0.065321
+v_hist_7_max,Color (HSV),0.145227
+gray_mean_mean,Texture (LBP & Gray),0.053369
+gray_mean_std,Texture (LBP & Gray),0.128368
+gray_mean_min,Texture (LBP & Gray),0.252154
+gray_mean_max,Texture (LBP & Gray),0.03486
+gray_std_mean,Texture (LBP & Gray),0.0585
+gray_std_std,Texture (LBP & Gray),0.020449
+gray_std_min,Texture (LBP & Gray),0.025787
+gray_std_max,Texture (LBP & Gray),0.081906
+lbp_hist_0_mean,Texture (LBP & Gray),0.256019
+lbp_hist_0_std,Texture (LBP & Gray),0.38935
+lbp_hist_0_min,Texture (LBP & Gray),0.089643
+lbp_hist_0_max,Texture (LBP & Gray),0.148391
+lbp_hist_1_mean,Texture (LBP & Gray),0.060451
+lbp_hist_1_std,Texture (LBP & Gray),0.526219
+lbp_hist_1_min,Texture (LBP & Gray),0.036916
+lbp_hist_1_max,Texture (LBP & Gray),0.37509
+lbp_hist_2_mean,Texture (LBP & Gray),0.075959
+lbp_hist_2_std,Texture (LBP & Gray),0.22016
+lbp_hist_2_min,Texture (LBP & Gray),0.118743
+lbp_hist_2_max,Texture (LBP & Gray),0.323828
+lbp_hist_3_mean,Texture (LBP & Gray),0.240122
+lbp_hist_3_std,Texture (LBP & Gray),0.470234
+lbp_hist_3_min,Texture (LBP & Gray),0.036779
+lbp_hist_3_max,Texture (LBP & Gray),0.267754
+lbp_hist_4_mean,Texture (LBP & Gray),0.135705
+lbp_hist_4_std,Texture (LBP & Gray),0.368805
+lbp_hist_4_min,Texture (LBP & Gray),0.171214
+lbp_hist_4_max,Texture (LBP & Gray),0.228377
+lbp_hist_5_mean,Texture (LBP & Gray),0.576653
+lbp_hist_5_std,Texture (LBP & Gray),0.361829
+lbp_hist_5_min,Texture (LBP & Gray),0.750647
+lbp_hist_5_max,Texture (LBP & Gray),0.275778
+lbp_hist_6_mean,Texture (LBP & Gray),0.162157
+lbp_hist_6_std,Texture (LBP & Gray),0.388594
+lbp_hist_6_min,Texture (LBP & Gray),0.510322
+lbp_hist_6_max,Texture (LBP & Gray),0.393547
+lbp_hist_7_mean,Texture (LBP & Gray),0.258614
+lbp_hist_7_std,Texture (LBP & Gray),0.442783
+lbp_hist_7_min,Texture (LBP & Gray),0.153685
+lbp_hist_7_max,Texture (LBP & Gray),0.050065
+lbp_hist_8_mean,Texture (LBP & Gray),0.114062
+lbp_hist_8_std,Texture (LBP & Gray),0.024046
+lbp_hist_8_min,Texture (LBP & Gray),0.291911
+lbp_hist_8_max,Texture (LBP & Gray),0.142331
+lbp_hist_9_mean,Texture (LBP & Gray),0.310228
+lbp_hist_9_std,Texture (LBP & Gray),0.149867
+lbp_hist_9_min,Texture (LBP & Gray),0.32881
+lbp_hist_9_max,Texture (LBP & Gray),0.215622
+edge_density_mean,Edge (Canny),0.152471
+edge_density_std,Edge (Canny),0.289644
+edge_density_min,Edge (Canny),0.000801
+edge_density_max,Edge (Canny),0.151002
+edge_mean_mean,Edge (Canny),0.152471
+edge_mean_std,Edge (Canny),0.289644
+edge_mean_min,Edge (Canny),0.000801
+edge_mean_max,Edge (Canny),0.151002
+edge_std_mean,Edge (Canny),0.436508
+edge_std_std,Edge (Canny),0.193088
+edge_std_min,Edge (Canny),0.134392
+edge_std_max,Edge (Canny),0.082793
+glcm_contrast_mean,Texture (GLCM),0.065403
+glcm_contrast_std,Texture (GLCM),0.036022
+glcm_contrast_min,Texture (GLCM),0.045735
+glcm_contrast_max,Texture (GLCM),0.091531
+glcm_dissimilarity_mean,Texture (GLCM),0.023571
+glcm_dissimilarity_std,Texture (GLCM),0.804272
+glcm_dissimilarity_min,Texture (GLCM),0.015863
+glcm_dissimilarity_max,Texture (GLCM),0.231893
+glcm_homogeneity_mean,Texture (GLCM),0.180445
+glcm_homogeneity_std,Texture (GLCM),0.039742
+glcm_homogeneity_min,Texture (GLCM),0.102231
+glcm_homogeneity_max,Texture (GLCM),0.02248
+glcm_energy_mean,Texture (GLCM),0.246158
+glcm_energy_std,Texture (GLCM),0.148701
+glcm_energy_min,Texture (GLCM),0.137455
+glcm_energy_max,Texture (GLCM),0.330968
+glcm_correlation_mean,Texture (GLCM),0.138063
+glcm_correlation_std,Texture (GLCM),0.437726
+glcm_correlation_min,Texture (GLCM),0.058878
+glcm_correlation_max,Texture (GLCM),0.252573
+dct_low_energy_mean,Frequency (DCT),0.09403
+dct_low_energy_std,Frequency (DCT),0.026697
+dct_low_energy_min,Frequency (DCT),0.166048
+dct_low_energy_max,Frequency (DCT),0.025724
+dct_mid_energy_mean,Frequency (DCT),0.060947
+dct_mid_energy_std,Frequency (DCT),0.305491
+dct_mid_energy_min,Frequency (DCT),0.17058
+dct_mid_energy_max,Frequency (DCT),0.235137
+dct_high_energy_mean,Frequency (DCT),0.08805
+dct_high_energy_std,Frequency (DCT),0.336191
+dct_high_energy_min,Frequency (DCT),0.033054
+dct_high_energy_max,Frequency (DCT),0.103765
+dct_high_low_ratio_mean,Frequency (DCT),0.04824
+dct_high_low_ratio_std,Frequency (DCT),0.172132
+dct_high_low_ratio_min,Frequency (DCT),0.231711
+dct_high_low_ratio_max,Frequency (DCT),0.017546
