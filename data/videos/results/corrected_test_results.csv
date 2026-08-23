@@ -1,0 +1,2 @@
+model,training_strategy,threshold,test_accuracy,test_balanced_accuracy,test_real_precision,test_real_recall,test_fake_precision,test_fake_recall,test_macro_f1,test_weighted_f1,test_roc_auc,test_pr_auc,TN,FP,FN,TP
+LR C=10.0,undersample,0.7500000000000002,0.3235,0.5,0.1667,0.7647,0.8333,0.2353,0.3203,0.3514,0.4879,0.8266,13,4,65,20

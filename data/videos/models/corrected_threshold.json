@@ -1,0 +1,9 @@
+{
+  "threshold": 0.7500000000000002,
+  "threshold_strategy": "ba_opt",
+  "val_balanced_accuracy": 0.5625,
+  "test_balanced_accuracy": 0.5,
+  "model_label": "LR C=10.0",
+  "improved_over_baseline": false,
+  "deployment_approved": false
+}
