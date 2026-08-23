@@ -1,2 +1,7 @@
 # Requirements for Explainable AI Media Detection
-# Packages will be added here as the project develops.
+opencv-python>=4.8.0
+scikit-learn>=1.2.0
+scikit-image>=0.21.0
+pandas>=2.0.0
+numpy>=1.24.0,<2.0.0
+shap>=0.42.0

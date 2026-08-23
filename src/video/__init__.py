@@ -1,5 +1,5 @@
 """
-Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, and ML training module.
+Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, and SHAP explainability module.
 """
 
 from .dataset_utils import get_video_info, get_sample_videos_info
@@ -25,6 +25,12 @@ from .ml_training import (
     evaluate_predictions,
     train_and_evaluate_baselines,
 )
+from .explainability import (
+    map_feature_to_family,
+    generate_feature_families_mapping,
+    explain_video,
+    compute_shap_explanations,
+)
 
 __all__ = [
     "get_video_info",
@@ -46,4 +52,8 @@ __all__ = [
     "prepare_scaled_features",
     "evaluate_predictions",
     "train_and_evaluate_baselines",
+    "map_feature_to_family",
+    "generate_feature_families_mapping",
+    "explain_video",
+    "compute_shap_explanations",
 ]

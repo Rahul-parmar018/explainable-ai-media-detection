@@ -1,0 +1,217 @@
+feature,feature_family,mean_abs_shap,mean_shap,direction
+glcm_dissimilarity_std,Texture (GLCM),0.804272,0.29317,Pushes FAKE
+lbp_hist_5_min,Texture (LBP & Gray),0.750647,0.466224,Pushes FAKE
+lbp_hist_5_mean,Texture (LBP & Gray),0.576653,-0.407706,Pushes REAL
+v_hist_6_std,Color (HSV),0.553205,0.42306,Pushes FAKE
+lbp_hist_1_std,Texture (LBP & Gray),0.526219,0.164215,Pushes FAKE
+lbp_hist_6_min,Texture (LBP & Gray),0.510322,-0.038237,Pushes REAL
+lbp_hist_3_std,Texture (LBP & Gray),0.470234,0.196691,Pushes FAKE
+h_hist_7_std,Color (HSV),0.460057,0.137048,Pushes FAKE
+s_hist_6_min,Color (HSV),0.44514,0.025771,Pushes FAKE
+lbp_hist_7_std,Texture (LBP & Gray),0.442783,-0.181824,Pushes REAL
+h_mean_min,Color (HSV),0.44146,0.017658,Pushes FAKE
+h_std_mean,Color (HSV),0.438919,0.055027,Pushes FAKE
+glcm_correlation_std,Texture (GLCM),0.437726,-0.269392,Pushes REAL
+edge_std_mean,Edge (Canny),0.436508,0.227453,Pushes FAKE
+lbp_hist_6_max,Texture (LBP & Gray),0.393547,-0.094133,Pushes REAL
+s_std_std,Color (HSV),0.393374,0.077527,Pushes FAKE
+lbp_hist_0_std,Texture (LBP & Gray),0.38935,-0.017119,Pushes REAL
+lbp_hist_6_std,Texture (LBP & Gray),0.388594,0.18113,Pushes FAKE
+s_hist_2_mean,Color (HSV),0.385589,-0.1073,Pushes REAL
+lbp_hist_1_max,Texture (LBP & Gray),0.37509,0.109563,Pushes FAKE
+lbp_hist_4_std,Texture (LBP & Gray),0.368805,0.246136,Pushes FAKE
+v_hist_0_min,Color (HSV),0.368087,-0.309499,Pushes REAL
+s_hist_7_std,Color (HSV),0.363234,0.075853,Pushes FAKE
+lbp_hist_5_std,Texture (LBP & Gray),0.361829,0.144882,Pushes FAKE
+s_std_mean,Color (HSV),0.339565,-0.222309,Pushes REAL
+dct_high_energy_std,Frequency (DCT),0.336191,-0.105762,Pushes REAL
+h_hist_4_max,Color (HSV),0.335492,0.077977,Pushes FAKE
+s_hist_3_mean,Color (HSV),0.335142,-0.004192,Pushes REAL
+v_hist_4_mean,Color (HSV),0.332705,-0.159148,Pushes REAL
+glcm_energy_max,Texture (GLCM),0.330968,0.142822,Pushes FAKE
+lbp_hist_9_min,Texture (LBP & Gray),0.32881,-0.207585,Pushes REAL
+s_hist_5_min,Color (HSV),0.326221,-0.126969,Pushes REAL
+lbp_hist_2_max,Texture (LBP & Gray),0.323828,-0.162688,Pushes REAL
+s_hist_5_mean,Color (HSV),0.320055,-0.13981,Pushes REAL
+v_hist_2_min,Color (HSV),0.317501,0.001569,Pushes FAKE
+lbp_hist_9_mean,Texture (LBP & Gray),0.310228,-0.168242,Pushes REAL
+dct_mid_energy_std,Frequency (DCT),0.305491,-0.05907,Pushes REAL
+h_mean_std,Color (HSV),0.304449,-0.087335,Pushes REAL
+lbp_hist_8_min,Texture (LBP & Gray),0.291911,0.20519,Pushes FAKE
+edge_density_std,Edge (Canny),0.289644,0.099982,Pushes FAKE
+edge_mean_std,Edge (Canny),0.289644,0.099982,Pushes FAKE
+v_hist_5_mean,Color (HSV),0.277078,0.169177,Pushes FAKE
+s_std_max,Color (HSV),0.27678,-0.166566,Pushes REAL
+lbp_hist_5_max,Texture (LBP & Gray),0.275778,-0.205919,Pushes REAL
+v_hist_1_min,Color (HSV),0.275386,-0.055372,Pushes REAL
+lbp_hist_3_max,Texture (LBP & Gray),0.267754,0.203874,Pushes FAKE
+s_hist_4_std,Color (HSV),0.261837,-0.046634,Pushes REAL
+v_mean_min,Color (HSV),0.260448,0.06696,Pushes FAKE
+s_hist_3_min,Color (HSV),0.258736,-0.004038,Pushes REAL
+lbp_hist_7_mean,Texture (LBP & Gray),0.258614,-0.048044,Pushes REAL
+lbp_hist_0_mean,Texture (LBP & Gray),0.256019,0.177583,Pushes FAKE
+glcm_correlation_max,Texture (GLCM),0.252573,-0.116041,Pushes REAL
+gray_mean_min,Texture (LBP & Gray),0.252154,0.08126,Pushes FAKE
+v_hist_2_mean,Color (HSV),0.249493,-0.005977,Pushes REAL
+h_hist_7_min,Color (HSV),0.247267,-0.051072,Pushes REAL
+glcm_energy_mean,Texture (GLCM),0.246158,-0.087435,Pushes REAL
+lbp_hist_3_mean,Texture (LBP & Gray),0.240122,0.151849,Pushes FAKE
+s_hist_0_std,Color (HSV),0.238942,-0.008062,Pushes REAL
+v_hist_5_max,Color (HSV),0.238159,0.151157,Pushes FAKE
+dct_mid_energy_max,Frequency (DCT),0.235137,0.04861,Pushes FAKE
+v_hist_0_mean,Color (HSV),0.233835,-0.184199,Pushes REAL
+glcm_dissimilarity_max,Texture (GLCM),0.231893,-0.064626,Pushes REAL
+dct_high_low_ratio_min,Frequency (DCT),0.231711,-0.192566,Pushes REAL
+lbp_hist_4_max,Texture (LBP & Gray),0.228377,0.185709,Pushes FAKE
+s_mean_mean,Color (HSV),0.225754,-0.030121,Pushes REAL
+v_hist_2_max,Color (HSV),0.223604,0.03074,Pushes FAKE
+v_hist_6_min,Color (HSV),0.220327,0.001958,Pushes FAKE
+lbp_hist_2_std,Texture (LBP & Gray),0.22016,-0.062068,Pushes REAL
+lbp_hist_9_max,Texture (LBP & Gray),0.215622,-0.10967,Pushes REAL
+h_hist_0_min,Color (HSV),0.213393,0.002426,Pushes FAKE
+h_hist_6_std,Color (HSV),0.213337,-0.130145,Pushes REAL
+h_std_max,Color (HSV),0.200623,-0.015797,Pushes REAL
+v_hist_5_std,Color (HSV),0.199711,0.099537,Pushes FAKE
+s_hist_7_max,Color (HSV),0.198381,0.110601,Pushes FAKE
+s_hist_6_mean,Color (HSV),0.197444,0.009573,Pushes FAKE
+edge_std_std,Edge (Canny),0.193088,-0.053632,Pushes REAL
+h_mean_max,Color (HSV),0.190616,0.02269,Pushes FAKE
+s_hist_5_std,Color (HSV),0.186405,0.087802,Pushes FAKE
+h_hist_3_max,Color (HSV),0.184892,-0.021048,Pushes REAL
+h_mean_mean,Color (HSV),0.18466,0.018542,Pushes FAKE
+glcm_homogeneity_mean,Texture (GLCM),0.180445,0.032306,Pushes FAKE
+v_hist_5_min,Color (HSV),0.176766,0.098688,Pushes FAKE
+s_hist_4_mean,Color (HSV),0.175287,-0.053681,Pushes REAL
+s_hist_7_mean,Color (HSV),0.172382,-0.100591,Pushes REAL
+dct_high_low_ratio_std,Frequency (DCT),0.172132,-0.043649,Pushes REAL
+lbp_hist_4_min,Texture (LBP & Gray),0.171214,0.103132,Pushes FAKE
+dct_mid_energy_min,Frequency (DCT),0.17058,0.055598,Pushes FAKE
+s_hist_5_max,Color (HSV),0.170043,-0.075311,Pushes REAL
+s_mean_std,Color (HSV),0.16788,-0.013774,Pushes REAL
+s_hist_3_max,Color (HSV),0.167858,0.016607,Pushes FAKE
+dct_low_energy_min,Frequency (DCT),0.166048,0.02203,Pushes FAKE
+s_hist_1_max,Color (HSV),0.165032,-0.006737,Pushes REAL
+h_hist_2_std,Color (HSV),0.163882,-0.024598,Pushes REAL
+h_hist_7_max,Color (HSV),0.163578,-0.044513,Pushes REAL
+v_hist_4_std,Color (HSV),0.16346,0.076483,Pushes FAKE
+lbp_hist_6_mean,Texture (LBP & Gray),0.162157,0.019107,Pushes FAKE
+h_hist_1_min,Color (HSV),0.161246,0.001574,Pushes FAKE
+lbp_hist_7_min,Texture (LBP & Gray),0.153685,0.042767,Pushes FAKE
+edge_density_mean,Edge (Canny),0.152471,0.067064,Pushes FAKE
+edge_mean_mean,Edge (Canny),0.152471,0.067064,Pushes FAKE
+v_std_min,Color (HSV),0.151392,-0.118477,Pushes REAL
+edge_density_max,Edge (Canny),0.151002,-0.049361,Pushes REAL
+edge_mean_max,Edge (Canny),0.151002,-0.049361,Pushes REAL
+lbp_hist_9_std,Texture (LBP & Gray),0.149867,0.014795,Pushes FAKE
+glcm_energy_std,Texture (GLCM),0.148701,0.030163,Pushes FAKE
+lbp_hist_0_max,Texture (LBP & Gray),0.148391,0.09711,Pushes FAKE
+h_hist_0_std,Color (HSV),0.147282,0.016198,Pushes FAKE
+v_hist_7_max,Color (HSV),0.145227,0.125816,Pushes FAKE
+v_hist_6_max,Color (HSV),0.144701,-0.06594,Pushes REAL
+v_hist_6_mean,Color (HSV),0.14349,0.036151,Pushes FAKE
+v_hist_3_std,Color (HSV),0.142666,0.023035,Pushes FAKE
+lbp_hist_8_max,Texture (LBP & Gray),0.142331,0.088295,Pushes FAKE
+glcm_correlation_mean,Texture (GLCM),0.138063,-0.032447,Pushes REAL
+glcm_energy_min,Texture (GLCM),0.137455,-0.059551,Pushes REAL
+s_hist_1_std,Color (HSV),0.136373,-0.021696,Pushes REAL
+lbp_hist_4_mean,Texture (LBP & Gray),0.135705,-0.083781,Pushes REAL
+edge_std_min,Edge (Canny),0.134392,-0.082094,Pushes REAL
+h_hist_4_std,Color (HSV),0.131236,-0.025405,Pushes REAL
+s_hist_0_min,Color (HSV),0.129351,0.001255,Pushes FAKE
+h_hist_2_min,Color (HSV),0.129169,-0.001191,Pushes REAL
+gray_mean_std,Texture (LBP & Gray),0.128368,0.036556,Pushes FAKE
+v_hist_0_max,Color (HSV),0.121954,0.087169,Pushes FAKE
+lbp_hist_2_min,Texture (LBP & Gray),0.118743,0.073638,Pushes FAKE
+v_hist_1_std,Color (HSV),0.114878,0.065271,Pushes FAKE
+s_mean_max,Color (HSV),0.114434,0.015207,Pushes FAKE
+lbp_hist_8_mean,Texture (LBP & Gray),0.114062,-0.068724,Pushes REAL
+v_hist_3_max,Color (HSV),0.113121,-0.016595,Pushes REAL
+s_hist_4_max,Color (HSV),0.107846,0.028771,Pushes FAKE
+h_hist_3_min,Color (HSV),0.106523,0.002036,Pushes FAKE
+h_hist_2_max,Color (HSV),0.105356,-0.005376,Pushes REAL
+dct_high_energy_max,Frequency (DCT),0.103765,0.032835,Pushes FAKE
+s_hist_7_min,Color (HSV),0.102941,0.060186,Pushes FAKE
+glcm_homogeneity_min,Texture (GLCM),0.102231,0.007059,Pushes FAKE
+h_hist_7_mean,Color (HSV),0.098771,-0.026811,Pushes REAL
+v_hist_0_std,Color (HSV),0.098009,-0.012806,Pushes REAL
+dct_low_energy_mean,Frequency (DCT),0.09403,0.013673,Pushes FAKE
+v_hist_3_min,Color (HSV),0.093092,0.02303,Pushes FAKE
+v_mean_std,Color (HSV),0.093072,-0.040398,Pushes REAL
+s_hist_6_max,Color (HSV),0.092313,-0.004729,Pushes REAL
+glcm_contrast_max,Texture (GLCM),0.091531,0.02847,Pushes FAKE
+v_hist_3_mean,Color (HSV),0.089942,-0.01815,Pushes REAL
+s_hist_1_mean,Color (HSV),0.089779,-0.00096,Pushes REAL
+lbp_hist_0_min,Texture (LBP & Gray),0.089643,-0.070691,Pushes REAL
+v_hist_7_std,Color (HSV),0.088504,0.014428,Pushes FAKE
+dct_high_energy_mean,Frequency (DCT),0.08805,0.045546,Pushes FAKE
+h_hist_6_mean,Color (HSV),0.087254,-0.03015,Pushes REAL
+h_hist_0_max,Color (HSV),0.084457,-0.000816,Pushes REAL
+edge_std_max,Edge (Canny),0.082793,0.035546,Pushes FAKE
+h_hist_3_std,Color (HSV),0.082346,-0.027319,Pushes REAL
+gray_std_max,Texture (LBP & Gray),0.081906,0.047138,Pushes FAKE
+s_mean_min,Color (HSV),0.080762,0.009554,Pushes FAKE
+v_mean_max,Color (HSV),0.08068,-0.033917,Pushes REAL
+s_hist_3_std,Color (HSV),0.076724,0.03693,Pushes FAKE
+lbp_hist_2_mean,Texture (LBP & Gray),0.075959,-0.043594,Pushes REAL
+s_hist_1_min,Color (HSV),0.07439,0.002942,Pushes FAKE
+h_hist_1_mean,Color (HSV),0.071758,0.003603,Pushes FAKE
+s_std_min,Color (HSV),0.070267,0.047773,Pushes FAKE
+glcm_contrast_mean,Texture (GLCM),0.065403,0.028002,Pushes FAKE
+v_hist_7_min,Color (HSV),0.065321,-0.053263,Pushes REAL
+h_hist_5_mean,Color (HSV),0.06531,-0.002528,Pushes REAL
+dct_mid_energy_mean,Frequency (DCT),0.060947,0.015474,Pushes FAKE
+lbp_hist_1_mean,Texture (LBP & Gray),0.060451,0.028551,Pushes FAKE
+v_hist_4_max,Color (HSV),0.059693,-0.031814,Pushes REAL
+s_hist_2_std,Color (HSV),0.058885,0.024875,Pushes FAKE
+glcm_correlation_min,Texture (GLCM),0.058878,-0.000846,Pushes REAL
+h_hist_5_max,Color (HSV),0.05857,-0.001574,Pushes REAL
+gray_std_mean,Texture (LBP & Gray),0.0585,-0.035761,Pushes REAL
+h_hist_5_min,Color (HSV),0.057295,0.004648,Pushes FAKE
+v_hist_7_mean,Color (HSV),0.056932,0.048802,Pushes FAKE
+h_hist_4_min,Color (HSV),0.056229,0.020549,Pushes FAKE
+v_std_mean,Color (HSV),0.055144,-0.044458,Pushes REAL
+gray_mean_mean,Texture (LBP & Gray),0.053369,0.018479,Pushes FAKE
+v_mean_mean,Color (HSV),0.050336,0.015739,Pushes FAKE
+lbp_hist_7_max,Texture (LBP & Gray),0.050065,-0.003993,Pushes REAL
+h_hist_6_min,Color (HSV),0.050019,0.014432,Pushes FAKE
+h_hist_2_mean,Color (HSV),0.049772,-0.000326,Pushes REAL
+dct_high_low_ratio_mean,Frequency (DCT),0.04824,-0.034014,Pushes REAL
+s_hist_0_max,Color (HSV),0.047941,0.001067,Pushes FAKE
+v_hist_1_max,Color (HSV),0.047536,0.000597,Pushes FAKE
+glcm_contrast_min,Texture (GLCM),0.045735,0.027567,Pushes FAKE
+h_std_std,Color (HSV),0.04353,0.013186,Pushes FAKE
+h_std_min,Color (HSV),0.042973,-0.00955,Pushes REAL
+s_hist_4_min,Color (HSV),0.042528,0.015226,Pushes FAKE
+glcm_homogeneity_std,Texture (GLCM),0.039742,0.013208,Pushes FAKE
+lbp_hist_1_min,Texture (LBP & Gray),0.036916,-0.020501,Pushes REAL
+lbp_hist_3_min,Texture (LBP & Gray),0.036779,-0.016932,Pushes REAL
+glcm_contrast_std,Texture (GLCM),0.036022,-0.009932,Pushes REAL
+v_std_max,Color (HSV),0.035474,-0.028051,Pushes REAL
+gray_mean_max,Texture (LBP & Gray),0.03486,-0.013508,Pushes REAL
+dct_high_energy_min,Frequency (DCT),0.033054,0.024352,Pushes FAKE
+h_hist_1_std,Color (HSV),0.030645,0.009394,Pushes FAKE
+h_hist_6_max,Color (HSV),0.028692,-0.011396,Pushes REAL
+v_std_std,Color (HSV),0.027961,-0.001264,Pushes REAL
+v_hist_4_min,Color (HSV),0.027704,-0.011525,Pushes REAL
+dct_low_energy_std,Frequency (DCT),0.026697,-0.005308,Pushes REAL
+gray_std_min,Texture (LBP & Gray),0.025787,0.015756,Pushes FAKE
+dct_low_energy_max,Frequency (DCT),0.025724,-0.005068,Pushes REAL
+h_hist_5_std,Color (HSV),0.024331,-0.007586,Pushes REAL
+lbp_hist_8_std,Texture (LBP & Gray),0.024046,-0.002035,Pushes REAL
+glcm_dissimilarity_mean,Texture (GLCM),0.023571,-0.009721,Pushes REAL
+glcm_homogeneity_max,Texture (GLCM),0.02248,-0.006423,Pushes REAL
+gray_std_std,Texture (LBP & Gray),0.020449,-0.000335,Pushes REAL
+dct_high_low_ratio_max,Frequency (DCT),0.017546,-0.008973,Pushes REAL
+glcm_dissimilarity_min,Texture (GLCM),0.015863,-0.009634,Pushes REAL
+h_hist_3_mean,Color (HSV),0.015263,-0.001751,Pushes REAL
+s_hist_2_min,Color (HSV),0.014776,0.003522,Pushes FAKE
+h_hist_1_max,Color (HSV),0.014503,-0.001944,Pushes REAL
+h_hist_0_mean,Color (HSV),0.013648,4.4e-05,Pushes FAKE
+s_hist_2_max,Color (HSV),0.008718,0.003106,Pushes FAKE
+h_hist_4_mean,Color (HSV),0.008561,-0.00227,Pushes REAL
+s_hist_0_mean,Color (HSV),0.008373,-0.000288,Pushes REAL
+v_hist_1_mean,Color (HSV),0.007868,-0.000737,Pushes REAL
+v_hist_2_std,Color (HSV),0.004447,0.00123,Pushes FAKE
+edge_density_min,Edge (Canny),0.000801,0.000499,Pushes FAKE
+edge_mean_min,Edge (Canny),0.000801,0.000499,Pushes FAKE
+s_hist_6_std,Color (HSV),0.000123,3.7e-05,Pushes FAKE
