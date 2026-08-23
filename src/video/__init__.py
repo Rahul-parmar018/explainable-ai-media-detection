@@ -1,5 +1,5 @@
 """
-Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, SHAP explainability, and ML experiments module.
+Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, SHAP explainability, and full batch extraction module.
 """
 
 from .dataset_utils import get_video_info, get_sample_videos_info
@@ -36,6 +36,11 @@ from .ml_experiments import (
     run_model_experiments,
     run_feature_ablation_experiment,
 )
+from .full_batch_processor import (
+    discover_all_videos,
+    load_existing_processed_paths,
+    run_full_batch_processing,
+)
 
 __all__ = [
     "get_video_info",
@@ -64,4 +69,7 @@ __all__ = [
     "get_hyperparameter_search_space",
     "run_model_experiments",
     "run_feature_ablation_experiment",
+    "discover_all_videos",
+    "load_existing_processed_paths",
+    "run_full_batch_processing",
 ]
