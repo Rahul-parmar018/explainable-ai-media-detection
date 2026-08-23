@@ -1,5 +1,5 @@
 """
-Video processing, frame sampling, preprocessing, visual feature extraction, and temporal aggregation module.
+Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, and batch processing module.
 """
 
 from .dataset_utils import get_video_info, get_sample_videos_info
@@ -14,6 +14,11 @@ from .feature_extraction import (
     extract_frame_features,
 )
 from .aggregation import aggregate_frame_features
+from .batch_processor import (
+    select_stage_b_videos,
+    process_single_video,
+    run_batch_processing,
+)
 
 __all__ = [
     "get_video_info",
@@ -28,4 +33,7 @@ __all__ = [
     "extract_dct_features",
     "extract_frame_features",
     "aggregate_frame_features",
+    "select_stage_b_videos",
+    "process_single_video",
+    "run_batch_processing",
 ]
