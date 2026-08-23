@@ -1,5 +1,5 @@
 """
-Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, and batch processing module.
+Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, and ML training module.
 """
 
 from .dataset_utils import get_video_info, get_sample_videos_info
@@ -19,6 +19,12 @@ from .batch_processor import (
     process_single_video,
     run_batch_processing,
 )
+from .ml_training import (
+    load_and_split_data,
+    prepare_scaled_features,
+    evaluate_predictions,
+    train_and_evaluate_baselines,
+)
 
 __all__ = [
     "get_video_info",
@@ -36,4 +42,8 @@ __all__ = [
     "select_stage_b_videos",
     "process_single_video",
     "run_batch_processing",
+    "load_and_split_data",
+    "prepare_scaled_features",
+    "evaluate_predictions",
+    "train_and_evaluate_baselines",
 ]
