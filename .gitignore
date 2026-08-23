@@ -26,6 +26,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Node / Web App dependencies & build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+temp_uploads/
+
 # PyInstaller
 *.manifest
 *.spec
@@ -89,9 +95,7 @@ env/
 # PyCharm / IntelliJ settings
 .idea/
 
-# Model checkpoints and serialized weights
-*.pkl
-*.joblib
+# Model checkpoints and serialized weights (except benchmark baseline joblib files)
 *.pth
 *.pt
 *.h5
@@ -112,8 +116,6 @@ data/videos/frames/*/*
 !data/videos/frames/*/.gitkeep
 data/videos/processed/*/*
 !data/videos/processed/*/.gitkeep
-data/videos/features/*
-!data/videos/features/.gitkeep
 
 data/metadata/*
 !data/metadata/.gitkeep
