@@ -99,12 +99,12 @@ env/
 *.onnx
 
 # Data directory contents (ignore datasets, but keep the folders via gitkeep)
-data/images/raw/*/*
-!data/images/raw/*/.gitkeep
-data/images/processed/*/*
-!data/images/processed/*/.gitkeep
-data/images/features/*
-!data/images/features/.gitkeep
+Dataset/Image/*/*/*
+!Dataset/Image/*/*/.gitkeep
+Dataset/Video/*/*
+Dataset/Video/*/*/*
+!Dataset/Video/*/.gitkeep
+!Dataset/Video/*/*/.gitkeep
 
 data/videos/raw/*/*
 !data/videos/raw/*/.gitkeep
