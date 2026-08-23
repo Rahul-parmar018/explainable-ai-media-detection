@@ -1,5 +1,5 @@
 """
-Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, SHAP explainability, ML experiments, dataset audit, and full ML benchmark module.
+Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, SHAP explainability, ML experiments, dataset audit, full ML benchmark, and raw video inference module.
 """
 
 from .dataset_utils import get_video_info, get_sample_videos_info
@@ -52,6 +52,11 @@ from .full_ml_benchmark import (
     evaluate_benchmark_predictions,
     run_full_ml_benchmark,
 )
+from .predict_video import (
+    extract_features_from_video_path,
+    predict_video,
+)
+from .inference_pipeline import VideoInferenceService
 
 __all__ = [
     "get_video_info",
@@ -90,4 +95,7 @@ __all__ = [
     "prepare_benchmark_scaled_features",
     "evaluate_benchmark_predictions",
     "run_full_ml_benchmark",
+    "extract_features_from_video_path",
+    "predict_video",
+    "VideoInferenceService",
 ]
