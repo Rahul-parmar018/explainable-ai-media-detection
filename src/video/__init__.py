@@ -1,5 +1,5 @@
 """
-Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, SHAP explainability, and full batch extraction module.
+Video processing, frame sampling, preprocessing, visual feature extraction, temporal aggregation, batch processing, ML training, SHAP explainability, ML experiments, and dataset integrity audit module.
 """
 
 from .dataset_utils import get_video_info, get_sample_videos_info
@@ -41,6 +41,11 @@ from .full_batch_processor import (
     load_existing_processed_paths,
     run_full_batch_processing,
 )
+from .dataset_audit import (
+    extract_actors_from_path,
+    build_connected_component_groups,
+    audit_dataset_integrity,
+)
 
 __all__ = [
     "get_video_info",
@@ -72,4 +77,7 @@ __all__ = [
     "discover_all_videos",
     "load_existing_processed_paths",
     "run_full_batch_processing",
+    "extract_actors_from_path",
+    "build_connected_component_groups",
+    "audit_dataset_integrity",
 ]
