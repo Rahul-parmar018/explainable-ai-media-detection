@@ -15,7 +15,7 @@ from src.video.feature_extraction import extract_frame_features
 def run_feature_extraction_test(samples_per_category: int = 4, num_frames: int = 10):
     base_dir = Path("Dataset/Video")
     print("=" * 80)
-    print(f"FEATURE EXTRACTION TEST REPORT ({samples_per_category} SAMPLES PER CATEGORY, {num_frames} FRAMES PER VIDEO)")
+    print(f"ADVANCED FEATURE EXTRACTION TEST REPORT ({samples_per_category} SAMPLES PER CATEGORY, {num_frames} FRAMES PER VIDEO)")
     print("=" * 80)
 
     total_videos = 0
@@ -53,7 +53,7 @@ def run_feature_extraction_test(samples_per_category: int = 4, num_frames: int =
                 # 2. Preprocess frame
                 pf = preprocess_frame(frame, target_size=(256, 256))
 
-                # 3. Extract features
+                # 3. Extract features (Color + LBP + Edge + GLCM + DCT)
                 feats = extract_frame_features(pf)
 
                 # Verification rules:
@@ -90,7 +90,7 @@ def run_feature_extraction_test(samples_per_category: int = 4, num_frames: int =
             print(f"Video {total_videos:02d}/28 [{folder_name:18s}]: {vfile:45s} | Frames: {len(sampled_frames)} | Feature Extraction: {'Passed' if video_valid else 'Failed'}")
 
     print("\n" + "=" * 80)
-    print("FEATURE EXTRACTION TEST SUMMARY:")
+    print("ADVANCED FEATURE EXTRACTION TEST SUMMARY:")
     print(f"  Total videos:                     {total_videos}")
     print(f"  Total frames:                     {total_frames}")
     print(f"  Successful feature extractions:   {successful_extractions}")
@@ -99,9 +99,9 @@ def run_feature_extraction_test(samples_per_category: int = 4, num_frames: int =
     print("=" * 80)
 
     if example_feature_vector:
-        print("\n--- EXAMPLE FEATURE VECTOR (SAMPLE FRAME) ---")
+        print("\n--- EXAMPLE FEATURE VECTOR (COMPLETE 54-FEATURE FRAME DESCRIPTOR) ---")
         for key, val in example_feature_vector.items():
-            print(f"  {key:15s}: {val:.6f}")
+            print(f"  {key:22s}: {val:.6f}")
         print("=" * 80)
 
 if __name__ == "__main__":

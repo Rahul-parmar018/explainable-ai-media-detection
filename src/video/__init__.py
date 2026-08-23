@@ -9,6 +9,8 @@ from .feature_extraction import (
     extract_color_features,
     extract_texture_features,
     extract_edge_features,
+    extract_glcm_features,
+    extract_dct_features,
     extract_frame_features,
 )
 
@@ -21,5 +23,7 @@ __all__ = [
     "extract_color_features",
     "extract_texture_features",
     "extract_edge_features",
+    "extract_glcm_features",
+    "extract_dct_features",
     "extract_frame_features",
 ]
