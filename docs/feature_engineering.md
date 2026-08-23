@@ -52,3 +52,14 @@ This document describes the design rationale, parameters, and research objective
      - Mid frequency: $32 \le r < 128$
      - High frequency: $r \ge 128$
    - Computes mean spectral energy per band and `dct_high_low_ratio`.
+
+---
+
+## Temporal Feature Aggregation Strategy
+
+To summarize temporal frame sequences into a single 216-dimensional video feature vector ($54 \text{ frame features} \times 4 \text{ statistics} = 216$), 4 statistical measures are computed across sampled frames:
+
+1. **Mean ($\mu$)**: Captures central tendency of visual characteristics across the video.
+2. **Standard Deviation ($\sigma$)**: Measures temporal volatility, flickering, and frame-to-frame synthesis inconsistency.
+3. **Minimum ($\text{Min}$)**: Identifies extreme low bound artifacts (e.g. temporary loss of edge detail or extreme color drops).
+4. **Maximum ($\text{Max}$)**: Identifies extreme high bound artifacts (e.g. transient high-frequency noise spikes or boundary artifacts).
